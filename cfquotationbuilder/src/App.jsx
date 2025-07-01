@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<DataEntryPage />} />
         <Route path="/manage" element={<DataMangementPage />} />
-        <Route path='test'  element={<AudioConfigDisplay/>}/>
+        <Route path='/add'  element={<AudioConfigDisplay/>}/>
       </Routes>
     </Router>
   )
