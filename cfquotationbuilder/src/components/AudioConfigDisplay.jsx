@@ -1,12 +1,13 @@
 // src/App.js
 import React from "react";
-import UploadSurrounds from "./UploadSurrounds";
+import UploadSurrounds from "./Surround";
+import Surround51 from "./Surround";
 
 function AudioConfigDisplay() {
   return (
     <div className="App">
-      <h1 className="text-xl font-bold p-4">Upload Surround Systems</h1>
-      <UploadSurrounds />
+
+      <Surround51 />
     </div>
   );
 }
